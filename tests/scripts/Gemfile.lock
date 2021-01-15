@@ -21,7 +21,7 @@ GEM
       rspec (~> 3.0)
       serverspec (~> 2)
       specinfra (~> 2)
-    rake (12.3.0)
+    rake (12.3.3)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -57,7 +57,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  json
   json_spec
   nokogiri
   octopus-serverspec-extensions
