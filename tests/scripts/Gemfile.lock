@@ -6,21 +6,23 @@ GEM
     json_spec (1.1.5)
       multi_json (~> 1.0)
       rspec (>= 2.0, < 4.0)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.5.0)
     multi_json (1.13.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (4.2.0)
     net-telnet (0.1.1)
-    nokogiri (1.8.2)
-      mini_portile2 (~> 2.3.0)
-    nokogiri (1.8.2-x64-mingw32)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.11.0)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    nokogiri (1.11.0-x64-mingw32)
+      racc (~> 1.4)
     octopus-serverspec-extensions (0.14.0)
       json (~> 2.1)
       rspec (~> 3.0)
       serverspec (~> 2)
       specinfra (~> 2)
+    racc (1.5.2)
     rake (12.3.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
@@ -57,7 +59,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  json
   json_spec
   nokogiri
   octopus-serverspec-extensions
